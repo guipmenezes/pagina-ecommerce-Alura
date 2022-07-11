@@ -1,0 +1,19 @@
+@media screen and (min-width: 0) {
+    .searchbar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .searchbar {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
