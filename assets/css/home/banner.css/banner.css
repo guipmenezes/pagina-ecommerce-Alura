@@ -1,21 +1,40 @@
 @media screen and (min-width: 0) {
-    .banner--container {
-        background-image: url('../../../img/banner-image.png');
-        background-size: cover;
-        background-repeat: no-repeat;
+    /* .banner-img {
         width: 100vw;
-        height: 50vh;
+        display:block;
+    } */
+    
+    .banner-text {
+        background-image: url(../../../img/banner.svg);
+        background-size:contain;
+        background-repeat: no-repeat;
+        position: absolute;
         display:flex;
         flex-direction: column;
-        justify-content: right;
+        justify-content: flex-end;
+        align-items: right;
+        gap: 1.5rem;
     }
 
     .banner-title {
         color: #FEFEFE;
+        font-size: 2rem;
+        font-weight: bold;
     }
 
     .banner-sub {
         color: #FEFEFE;
+        font-size: 2rem;
+    }
+
+    .banner-btn {
+        width: 10rem;
+        height: 3.5rem;
+        font-size: 1rem;
+        background: #5595E9;
+        border: #5595E9;
+        color: #FEFEFE;
+        margin-bottom: 1rem;
     }
 }
 
