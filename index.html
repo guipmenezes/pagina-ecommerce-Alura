@@ -8,23 +8,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/header.css/header.css">
+    <link rel="stylesheet" href="assets/css/home/header.css/header.css">
+    <link rel="stylesheet" href="assets/css/home/banner.css/banner.css">
     
 </head>
 <body>
     <header class="site-header">
-        <div class="logo--container">
+        <div class="header--container">
             <img class="logo" src="./assets/img/logo-alurageek.svg" alt="Logo da Alura Geek">
-            <form action="#" method="post" class="searchbar--container">
-                <input class="searchbar" placeholder="O que deseja encontrar?" type="text">
-                <button class="searchbar-btn" src="#">&#128269;</button>
-            </form>
-        </div>
-        <div>
-            <button class="login-btn">Login</button>
+            <div class="header-nav--container">
+                <form action="#" method="post" class="searchbar--container">
+                    <input class="searchbar" placeholder="O que deseja encontrar?" type="text">
+                    <button class="searchbar-btn" src="#"><img src="assets/img/icone-pesquisa.svg" alt="lupa de pesquisa"></button>
+                </form>
+                <button class="login-btn">Login</button>
+            </div>
         </div>
     </header>
+
+    <main>
+        <div class="banner--container">
+            <h1 class="banner-title">Julho Promocional</h1>
+            <h2 class="banner-sub">Produtos Selecionados com 33% de desconto</h2>
+            <button class="banner-btn">Ver Consoles</button>
+        </div>
+    </main>
     
 </body>
 </html>

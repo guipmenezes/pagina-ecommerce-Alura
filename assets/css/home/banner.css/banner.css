@@ -1,0 +1,32 @@
+@media screen and (min-width: 0) {
+    .banner--container {
+        background-image: url('../../../img/banner-image.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 50vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: right;
+    }
+
+    .banner-title {
+        color: #FEFEFE;
+    }
+
+    .banner-sub {
+        color: #FEFEFE;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
