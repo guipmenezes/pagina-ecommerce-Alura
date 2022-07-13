@@ -1,19 +1,20 @@
 @media screen and (min-width: 0) {
-    /* .banner-img {
-        width: 100vw;
-        display:block;
-    } */
+    .banner--container {
+        background-image: url(../../../img/banner.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 30vh;
+    }
     
     .banner-text {
-        background-image: url(../../../img/banner.svg);
-        background-size:contain;
-        background-repeat: no-repeat;
-        position: absolute;
+        height: 25vh;
         display:flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content:end;
         align-items: right;
-        gap: 1.5rem;
+        gap: 1rem;
+        padding: .5rem;
+
     }
 
     .banner-title {
@@ -24,7 +25,7 @@
 
     .banner-sub {
         color: #FEFEFE;
-        font-size: 2rem;
+        font-size: .8rem;
     }
 
     .banner-btn {
@@ -34,18 +35,60 @@
         background: #5595E9;
         border: #5595E9;
         color: #FEFEFE;
-        margin-bottom: 1rem;
     }
 }
 
 @media screen and (min-width: 768px) {
+    .banner-text {
+        margin-left: 1rem;
+    }
+    
+    .banner-title {
+        font-size: 2rem;
+    }
 
+    .banner-sub {
+        font-size: 1rem;
+    }
+
+    .banner-btn {
+        width: 8rem;
+        height: 3rem;
+    }
 }
 
 @media screen and (min-width: 992px) {
+    .banner-text {
+        margin-left: 3rem;
+    }
+    
+    .banner-title {
+        font-size: 2.5rem;
+    }
+
+    .banner-sub {
+        color: #FEFEFE;
+        font-size: 1rem;
+    }
 
 }
 
 @media screen and (min-width: 1200px) {
+    .banner--container {
+        height: 40vh;
+    }
 
+    .banner-text {
+        height: 35vh;
+        margin-left: 10rem;
+    }
+    
+    .banner-title {
+        font-size: 3rem;
+    }
+
+    .banner-sub {
+        color: #FEFEFE;
+        font-size: 1.5rem;
+    }
 }
