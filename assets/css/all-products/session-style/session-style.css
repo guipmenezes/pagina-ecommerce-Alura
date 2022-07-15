@@ -1,0 +1,114 @@
+@media screen and (min-width: 0) {
+    .section--container {
+        display:flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        align-items: center;
+        width: 100%;
+    }
+
+    .title--container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 95%;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .section-title {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .section-button {
+        background-color: #2A7AE4;
+        border: none;
+        color: #FEFEFE;
+        font-size: 15px;
+        height: 7vh;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .section-button:hover {
+        background-color: #FEFEFE;
+        color: #2A7AE4;
+    }
+
+    .product-section--container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+        gap: 2rem;
+    }
+
+    .product-img {
+        width: 35vw;
+    }
+
+    .product-img, .product-title, .product-price {
+        margin-bottom: .5rem;
+    }
+
+    .product-title {
+        color: #464646;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .product-price {
+        font-weight: bold;
+    }
+    
+    .product-tag {
+        background-color: #FFFFFF;
+        border: none;
+        color: #404040;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .product-section--container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 20% 20% 20% 20%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        padding-bottom: 4rem;
+    }
+    
+    .product-img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .title--container {
+        width: 60%;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .product-section--container {
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15% 15%;
+        grid-template-rows: 33% 33% 33%;
+        gap: 1.25rem;
+        padding: 1rem;
+    }
+
+    .section-button {
+        width: 10vw;
+        height: 5vh;
+    }
+
+}
