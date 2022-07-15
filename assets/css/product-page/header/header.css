@@ -1,0 +1,103 @@
+@media screen and (min-width: 0) {
+    .site-header {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem 0;
+        align-items: center;
+        background-color: #FFFFFF;
+        margin-bottom: 1rem;
+    }
+
+    .header--container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100vw;
+        margin-left: 5rem;
+    }
+
+    .logo-btn {
+        border: none;
+        background-color: #FEFEFE;
+        cursor: pointer;
+    }
+
+    .logo {
+        align-items: center;
+        width: 100%;
+    }
+
+    .header-nav--container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .searchbar--container {
+        padding: .5rem;
+        margin-left: 4rem;
+    }
+    
+    .searchbar {
+        display: none;
+    }
+
+    .searchbar-btn {
+        height: 5vh;
+        border: 1px solid #2A7AE4;
+        cursor: pointer;
+    }
+
+    /* Need to add the function to the searchbar appear when hover the searchbar btn */
+    
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+    .header-nav--container {
+        flex-direction: row;
+    }
+
+    .searchbar--container {
+        display: flex;
+        margin-right: 5rem;
+        background-color: #F5F5F5;
+        padding: .5rem;
+        border-radius: 30px;
+        width: 30vw;
+        justify-content: space-between;
+    }
+
+    .searchbar {
+        display: flex;
+        border: none;
+        background-color: #F5F5F5;
+        border-radius: 30px;
+        width: 15rem;
+    }
+
+    .searchbar-btn {
+        background-color: #F5F5F5;
+        border-radius: 30px;
+        border: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    .searchbar--container {
+        margin-right: 10rem;
+    }
+
+    .menuadmin-btn {
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .searchbar--container {
+        margin-right: 40rem;
+        width: 15vw;
+    }
+}
