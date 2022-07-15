@@ -47,6 +47,13 @@
         border: 1px solid #2A7AE4;
         cursor: pointer;
         margin-left: 1rem;
+        transition: 1s;
+    }
+
+    .login-btn:hover {
+        background-color: #2A7AE4;
+        color: #fefefe;
+        border: 1px solid #fefefe;
     }
 
     /* Need to add the function to the searchbar appear when hover the searchbar btn */

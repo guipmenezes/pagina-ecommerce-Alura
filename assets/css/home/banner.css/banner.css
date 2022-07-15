@@ -35,6 +35,13 @@
         background: #5595E9;
         border: #5595E9;
         color: #FEFEFE;
+        transition: 1s;
+    }
+
+    .banner-btn:hover {
+        background: #FEFEFE;
+        border: #FEFEFE;
+        color: #5595E9;
     }
 }
 
