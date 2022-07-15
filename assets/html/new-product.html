@@ -4,41 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Alura Geek</title>
+    <title>Alura Geek</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../assets/css/reset.css">
-    <link rel="stylesheet" href="../../assets/css/style.css">
-    <link rel="stylesheet" href="../css/login/header.css/header.css">
-    <link rel="stylesheet" href="../css/login/footer/footer.css">
-    <link rel="stylesheet" href="../css/login/login-menu/login.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/new-product/header/header.css">
+    <link rel="stylesheet" href="../css/new-product/footer/footer.css">
+    <link rel="stylesheet" href="../css/new-product/add-product/add-product.css">
     
 </head>
 <body>
     <header class="site-header">
         <div class="header--container">
-            <a href="../../index.html"><button class="logo-btn" src=""><img class="logo" src="../img/logo-alurageek.svg" alt="Logo da Alura Geek"></button></a>
+            <a href="../../index.html"><button class="logo-btn"><img class="logo" src="../../assets/img/logo-alurageek.svg" alt="Logo da Alura Geek"></button></a>
             <div class="header-nav--container">
                 <form action="#" method="post" class="searchbar--container">
                     <input class="searchbar" placeholder="O que deseja encontrar?" type="text">
                     <button class="searchbar-btn" src="#"><img src="../img/icone-pesquisa.svg" alt="lupa de pesquisa"></button>
                 </form>
+                <a href="#"><button type="button" class="menuadmin-btn">Menu administrador</button></a>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="login-session">
-            <div class="login--container">
-                <h2 class="login-title">Iniciar Sessão</h2>
-                <input type="email" class="login-email" placeholder="Escreva seu email" required>
-                <input type="password" class="login-password" placeholder="Escreva sua senha" required>
-                <button class="login-button">Entrar</button>
+        <section class="add-product">
+            <div class="add-product--container">
+                <h2 class="add-product-title">Adicionar novo produto</h2>
+                <div class="product--container">
+                    <label for="product-img">URL da imagem</label>
+                    <input type="text" name="product-img" class="add-product-input">
+                </div>
+                <div class="product--container">
+                    <label for="product-category">Categoria</label>
+                    <input type="text" name="product-category" placeholder="Consoles" class="add-product-input">
+                </div>
+                <div class="product--container">
+                    <label for="product-name">Nome do produto</label>
+                    <input type="text" name="product-name" placeholder="Produto XYZ" class="add-product-input">
+                </div>
+                <div class="product--container">
+                    <label for="product-price">Preço do produto</label>
+                    <input type="text" name="product-price" placeholder="R$ 60,00" class="add-product-input">
+                </div>
+                <div class="product--container">
+                    <label for="product-description">Descrição do produto</label>
+                    <input type="text" name="product-description" class="add-product-input">
+                </div>
+                <button class="add-product-btn">Adicionar produto</button>
             </div>
         </section>
     </main>
-
     <footer>
         <div class="footer">
             <img src="../img/logo-alurageek.svg" alt="Logo da Alura Geek">
