@@ -1,0 +1,136 @@
+@media screen and (min-width: 0) {
+    .footer {
+        background-color: #EAF2FD;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+        padding: 2rem;
+        margin-top: 4rem;
+    }
+
+    .list {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .list-item {
+        margin-bottom: 1rem;
+        color: #464646;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    .contact-name {
+        display: flex;
+        flex-direction:column;
+        width: 75vw;
+        box-shadow: 0 1px 5px -1px #000000;
+    }
+
+    .name-label {
+        background: white;
+        color: #404040;
+        font-size: 13px;
+        padding: .25rem;
+    }
+
+    .input-name {
+        border: none;
+        padding: .5rem;
+        font-size: 16px;
+    }
+
+    .input-name::placeholder {
+        color: #303030;
+        font-size: 16px;
+    }
+
+    .input-text {
+        border: none;
+        width: 70vw;
+        font-size: 17px;
+        padding: .5rem;
+        box-shadow: 0 1px 5px -1px #000000;
+    }
+
+    .input-text::placeholder {
+        padding: .25rem;
+        font-size: 17px;
+    }
+
+    .contact-btn {
+        width: 40vw;
+        height: 7vh;
+        background-color: #2A7AE4;
+        color: #FEFEFE;
+        border: 1px solid #2A7AE4;
+        transition: 1s;
+    }
+
+    .contact-btn:hover {
+        background-color: #FEFEFE;
+        border: 1px solid #FEFEFE;
+        color: #2A7AE4;
+    }
+
+    .credits {
+        padding: 2rem;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contact-name {
+        width: 32vw;
+    }
+    .input-text {
+        width: 30vw;
+    }
+
+    .contact-btn {
+        width: 20vw;
+        height: 6vh;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+    .footer {
+        background-color: #EAF2FD;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10rem;
+    }
+
+
+    .contact-name {
+        width: 25.8vw;
+    }
+
+    .input-text {
+        width: 25vw;
+    }
+
+    .contact-btn {
+        width: 10vw;
+        height: 5vh;
+    }
+}

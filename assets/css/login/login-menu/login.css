@@ -1,0 +1,78 @@
+@media screen and (min-width: 0) {
+    .login--container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 5rem 0;
+    }
+
+    .login-title {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .login-email, .login-password {
+        border: none;
+        width: 85vw;
+        height: 10vw;
+        padding: 1rem;
+        font-size: 16px;
+        box-shadow: 0 3px 1px 0 rgba(0,0,0,0.29);
+    }
+
+    .login-email::placeholder, .login-password::placeholder {
+        font-size: 16px;
+        color: #505050;
+        padding: .25rem;
+    }
+
+    .login-button {
+        width: 50vw;
+        height: 15vw;
+        border: none;
+        background-color: #2A7AE4;
+        color: #FEFEFE;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .login-email, .login-password {
+        width: 40vw;
+        height: 5vw;
+    }
+
+    .login-button {
+        width: 15vw;
+        height: 5vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .login-email, .login-password {
+        width: 30vw;
+        height: 5vw;
+        padding: 0 1rem;
+    }
+
+    .login-button {
+        width: 15vw;
+        height: 4vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .login-email, .login-password {
+        width: 25vw;
+        height: 3vw;
+        padding: 0;
+    }
+
+    .login-button {
+        width: 25vw;
+        height: 3vw;
+        font-size: 19px;
+    }
+}
