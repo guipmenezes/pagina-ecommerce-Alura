@@ -71,6 +71,7 @@
         color: #FEFEFE;
         border: 1px solid #2A7AE4;
         transition: 1s;
+        cursor: pointer;
     }
 
     .contact-btn:hover {
@@ -83,6 +84,11 @@
         padding: 2rem;
         text-align: center;
         font-weight: bold;
+    }
+
+    .input-container--invalid {
+        border: red;
+        margin: red;
     }
 }
 

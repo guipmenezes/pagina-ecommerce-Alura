@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
+    <!-- Estou tentando escrever código em inglês, porém a parte do JavaScript eu vou escrever em português
+    para quem for avaliar o meu código na alura consiga avaliar com tranquilidade. Posteriomente, eu pretendo converter esse código para 
+    inglês, como uma forma de desenvolver códigos globais.  -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -194,18 +199,20 @@
             </div>
             <div class="contact-form">
                 <h3 class="contact-title">Fale Conosco</h3>
-                <div class="contact-name">
+                <div class="contact-name input-container--invalid">
                     <label for="name" class="name-label">Nome</label>
-                    <input class="input-name" name="name" type="text" maxlength="50" placeholder="Guilherme Menezes">
+                    <input class="input-name" name="name" type="text" maxlength="40" placeholder="Guilherme Menezes" data-tipo="nome" required>
                 </div>
-                <div class="contact-text">
-                    <textarea class="input-text" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                <div class="contact-text input-container--invalid">
+                    <textarea class="input-text" cols="30" rows="10" placeholder="Escreva sua mensagem" maxlength="120" data-tipo="mensagem" required></textarea>
                 </div>
-                <button class="contact-btn">Enviar Mensagem</button>
+                <button type="button" class="contact-btn">Enviar Mensagem</button>
             </div>
         </div>
         <p class="credits">Desenvolvido por Guilherme Menezes, 2021 <br> Nenhum dos preços dessa página representa a realidade, são apenas para fins estéticos</p>
     </footer>
 
 </body>
+
+<script type="module" src="assets/javascript/validation.js"></script>
 </html>
