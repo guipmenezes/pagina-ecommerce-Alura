@@ -86,11 +86,22 @@
         font-weight: bold;
     }
 
-    .input-container--invalid {
+    .input-container-invalid {
         border: red;
         margin: red;
     }
+
+    .input-message-error {
+        display: none;
+    }
+
+    .input-container-invalid .input-message-error {
+        border: red;
+        color: red;
+        display: block;
+    }
 }
+
 
 @media screen and (min-width: 768px) {
     .footer {
