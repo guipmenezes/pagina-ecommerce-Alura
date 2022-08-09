@@ -201,14 +201,14 @@
                 <h3 class="contact-title">Fale Conosco</h3>
                 <div class="contact-name">
                     <label for="name" class="name-label">Nome</label>
-                    <input class="input-name" name="name" type="text" placeholder="Guilherme Menezes" data-tipo="nome" required>
+                    <input class="input-name" name="name" type="text" placeholder="Guilherme Menezes" maxlength="40" data-tipo="nome" required>
                     <span class="input-message-error">Este Campo não está válido</span>
                 </div>
                 <div class="contact-text">
-                    <textarea class="input-text" cols="30" rows="10" placeholder="Escreva sua mensagem" data-tipo="escreva" required></textarea>
+                    <textarea class="input-text" cols="30" rows="10" placeholder="Escreva sua mensagem" maxlength="120" data-tipo="escreva" required></textarea>
                     <span class="input-message-error">Este campo não está válido</span>
                 </div>
-                <button class="contact-btn">Enviar Mensagem</button>
+                <button class="contact-btn" disabled>Enviar Mensagem</button>
             </div>
         </div>
         <p class="credits">Desenvolvido por Guilherme Menezes, 2021 <br> Nenhum dos preços dessa página representa a realidade, são apenas para fins estéticos</p>

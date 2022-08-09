@@ -1,4 +1,4 @@
-export function vailda(input) {
+export function valida(input) {
     const tipoDeInput = input.dataset.tipo
 
     if(validadores[tipoDeInput]) {
@@ -7,7 +7,7 @@ export function vailda(input) {
 
     if(input.validity.valid) {
         input.parentElement.classList.remove('input-container-invalid')
-        input.parentElement.querySelector('input-message-error').innerHTML = ' '
+        input.parentElement.querySelector('.input-message-error').innerHTML = ' '
     } else {
         input.parentElement.classList.add('input-container-invalid')
         input.parentElement.querySelector('.input-message-error').innerHTML = mostraMensagemDeErro(tipoDeInput, input)
@@ -49,25 +49,20 @@ function mostraMensagemDeErro(tipoDeInput, input) {
 
 function validaNome(input) {
     const nome = input.value
-    mensagem = ''
+    let mensagem = ''
 
     if(nome > 40) {
-        mensagem = 'O nome deve conter no máximo 40 caracteres.'
-    }
-    if(nome == 0) {
-        mensagem = 'O nome não pode estar em branco.'
+        return mostraMensagemDeErro(nome, tooLong);
+    } else {
+        return mensagem;
     }
 }
 
 function validaMensagem(input) {
     const escreva = input.value
-    mensagem = ''
+    let mensagem = ''
 
     if(escreva > 120) {
         mensagem = 'A mensagem que deseja enviar deve ter menos de 120 caracteres.'
-    }
-
-    if(escreva == 0) {
-        mensagem = 'A mensagem não pode estar em branco.'
     }
 }

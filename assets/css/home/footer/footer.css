@@ -93,6 +93,8 @@
 
     .input-message-error {
         display: none;
+        background-color: #FEFEFE;
+        padding: .25rem;
     }
 
     .input-container-invalid .input-message-error {
