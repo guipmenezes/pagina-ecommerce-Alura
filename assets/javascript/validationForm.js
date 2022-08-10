@@ -33,8 +33,22 @@ const mensagensDeErro = {
     senha: {
         valueMissing: 'O campo de senha não pode estar vazio.',
         patternMismatch: 'A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra minuscua e maiuscula, um número e não deve conter nenhum tipo de símbolo.'
+    },
+    image: {
+        valueMissing: 'É necessário adicionar uma imagem para o produto.'
+    },
+    category: {
+        valueMissing: 'É necessário adicionar uma categoria para o produto.',
+        tooLong: 'O máximo de caracteres foi atingido.'
+    },
+    product: {
+        valueMissing: 'É necessário adicionar um nome para o produto.',
+        tooLong: 'O máximo de caracteres foi atingido.'
+    },
+    price: {
+        valueMissing: 'É necessário adicionar um preço para o produto.',
+        typeMismatch: 'Adicione um preço válido para o produto.'
     }
-    
 }
 
 function mostraMensagemDeErro(tipoDeInput, input) {

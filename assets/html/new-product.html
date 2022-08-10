@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/new-product/header/header.css">
-    <link rel="stylesheet" href="../css/new-product/footer/footer.css">
+    <link rel="stylesheet" href="../css/home/footer/footer.css">
     <link rel="stylesheet" href="../css/new-product/add-product/add-product.css">
     
 </head>
@@ -24,38 +24,43 @@
                     <input class="searchbar" placeholder="O que deseja encontrar?" type="text">
                     <button class="searchbar-btn" src="#"><img src="../img/icone-pesquisa.svg" alt="lupa de pesquisa"></button>
                 </form>
-                <a href="#"><button type="button" class="menuadmin-btn">Menu administrador</button></a>
+                <a href="./all-products.html"><button type="button" class="menuadmin-btn">Menu administrador</button></a>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="add-product">
+        <form action="./all-products.html" class="add-product">
             <div class="add-product--container">
                 <h2 class="add-product-title">Adicionar novo produto</h2>
-                <div class="product--container">
+                <fieldset class="product--container">
                     <label for="product-img">URL da imagem</label>
-                    <input type="text" name="product-img" class="add-product-input">
-                </div>
-                <div class="product--container">
+                    <input type="file" name="product-img" class="add-product-input" data-tipo="image" required>
+                    <span class="input-message-error">Este Campo não está válido</span>
+                </fieldset>
+                <fieldset class="product--container">
                     <label for="product-category">Categoria</label>
-                    <input type="text" name="product-category" placeholder="Consoles" class="add-product-input">
-                </div>
-                <div class="product--container">
+                    <input type="text" name="product-category" placeholder="Consoles" maxlength="10" class="add-product-input" data-tipo="category" required>
+                    <span class="input-message-error">Este Campo não está válido</span>
+                </fieldset>
+                <fieldset class="product--container">
                     <label for="product-name">Nome do produto</label>
-                    <input type="text" name="product-name" placeholder="Produto XYZ" class="add-product-input">
-                </div>
-                <div class="product--container">
+                    <input type="text" name="product-name" placeholder="Produto XYZ" maxlength="20" class="add-product-input" data-tipo="product" required>
+                    <span class="input-message-error">Este Campo não está válido</span>
+                </fieldset>
+                <fieldset class="product--container">
                     <label for="product-price">Preço do produto</label>
-                    <input type="text" name="product-price" placeholder="R$ 60,00" class="add-product-input">
-                </div>
-                <div class="product--container">
+                    <input type="text" name="product-price" placeholder="R$ 60,00" class="add-product-input" data-tipo="price" required>
+                    <span class="input-message-error">Este Campo não está válido</span>
+                </fieldset>
+                <fieldset class="product--container">
                     <label for="product-description">Descrição do produto</label>
-                    <input type="text" name="product-description" class="add-product-input">
-                </div>
+                    <input type="text" name="product-description" maxlength="150" class="add-product-input" data-tipo="message" required>
+                    <span class="input-message-error">Este Campo não está válido</span>
+                </fieldset>
                 <button class="add-product-btn">Adicionar produto</button>
             </div>
-        </section>
+        </form>
     </main>
     <footer>
         <div class="footer">
@@ -71,20 +76,22 @@
                     <li class="list-item">Anuncie aqui</li>
                 </ul> 
             </div>
-            <div class="contact-form">
+            <form class="contact-form">
                 <h3 class="contact-title">Fale Conosco</h3>
-                <div class="contact-name">
+                <fieldset class="contact-name">
                     <label for="name" class="name-label">Nome</label>
-                    <input class="input-name" name="name" type="text" maxlength="50" placeholder="Guilherme Menezes">
-                </div>
-                <div class="contact-text">
-                    <textarea class="input-text" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
-                </div>
+                    <input class="input-name" name="name" type="text" maxlength="40" placeholder="Guilherme Menezes" data-tipo="name" required>
+                    <span class="input-message-error">Este Campo não está válido</span>
+                </fieldset>
+                <fieldset class="contact-text">
+                    <textarea class="input-text" cols="30" rows="10" maxlength="120" placeholder="Escreva sua mensagem" data-tipo="name" required></textarea>
+                    <span class="input-message-error">Este Campo não está válido</span>
+                </fieldset>
                 <button class="contact-btn">Enviar Mensagem</button>
-            </div>
+            </form>
         </div>
         <p class="credits">Desenvolvido por Guilherme Menezes, 2021 <br> Nenhum dos preços dessa página representa a realidade, são apenas para fins estéticos</p>
     </footer>
-
 </body>
+<script type="module" src="../javascript/app.js"></script>
 </html>

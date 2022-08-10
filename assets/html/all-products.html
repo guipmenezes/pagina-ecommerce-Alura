@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/all-products/header.css/header.css">
     <link rel="stylesheet" href="../css/all-products/session-style/session-style.css">
-    <link rel="stylesheet" href="../css/all-products/footer/footer.css">
+    <link rel="stylesheet" href="../css/home/footer/footer.css">
     
 </head>
 <body>
@@ -165,20 +165,22 @@
                     <li class="list-item">Anuncie aqui</li>
                 </ul> 
             </div>
-            <div class="contact-form">
+            <form class="contact-form">
                 <h3 class="contact-title">Fale Conosco</h3>
-                <div class="contact-name">
+                <fieldset class="contact-name">
                     <label for="name" class="name-label">Nome</label>
-                    <input class="input-name" name="name" type="text" maxlength="50" placeholder="Guilherme Menezes">
-                </div>
-                <div class="contact-text">
-                    <textarea class="input-text" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
-                </div>
+                    <input class="input-name" name="name" type="text" maxlength="40" placeholder="Guilherme Menezes" data-tipo="name" required>
+                    <span class="input-message-error">Este Campo não está válido</span>
+                </fieldset>
+                <fieldset class="contact-text">
+                    <textarea class="input-text" cols="30" rows="10" maxlength="120" placeholder="Escreva sua mensagem" data-tipo="message" required></textarea>
+                    <span class="input-message-error">Este Campo não está válido</span>
+                </fieldset>
                 <button class="contact-btn">Enviar Mensagem</button>
-            </div>
+            </form>
         </div>
         <p class="credits">Desenvolvido por Guilherme Menezes, 2021 <br> Nenhum dos preços dessa página representa a realidade, são apenas para fins estéticos</p>
     </footer>
-
 </body>
+<script type="module" src="../javascript/app.js"></script>
 </html>
