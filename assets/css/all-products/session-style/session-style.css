@@ -69,6 +69,29 @@
         font-weight: bold;
         font-size: 15px;
         padding: 0;
+    }
+
+    .product-edit {
+        margin-top: .5rem;
+        background-color: #2A7AE4;
+        opacity: 70%;
+        border: none;
+        border-radius: 1rem;
+        width: 60px;
+        height: 25px;
+        color: #FEFEFE;
+        cursor: pointer;
+    }
+    
+    .product-delete {
+        margin: .5rem 0;
+        background-color: red;
+        opacity: 70%;
+        border: none;
+        border-radius: 1rem;
+        width: 60px;
+        height: 25px;
+        color: #FEFEFE;
         cursor: pointer;
     }
 
