@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../css/login/header.css/header.css">
-    <link rel="stylesheet" href="../css/login/footer/footer.css">
+    <link rel="stylesheet" href="../css/home/footer/footer.css">
     <link rel="stylesheet" href="../css/login/login-menu/login.css">
     
 </head>
@@ -32,8 +32,14 @@
         <section class="login-session">
             <div class="login--container">
                 <h2 class="login-title">Iniciar Sessão</h2>
-                <input type="email" class="login-email" placeholder="Escreva seu email" required>
-                <input type="password" class="login-password" placeholder="Escreva sua senha" required>
+                <div class="email-container">
+                    <input type="email" class="login-email" placeholder="Escreva seu email" data-tipo="email" required>
+                    <span class="input-message-error">Este Campo não está válido</span>
+                </div>
+                <div class="password-container">
+                    <input type="password" class="login-password" placeholder="Escreva sua senha" data-tipo="senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[!@#$%^&*_=+-]).{6,12}$" required>
+                    <span class="input-message-error">Este Campo não está válido</span>
+                </div>
                 <a href="./all-products.html"><button class="login-button">Entrar</button></a> <!-- Need to add a validation on JS to only go to the page when the login is validated -->
             </div>
         </section>
@@ -57,10 +63,12 @@
                 <h3 class="contact-title">Fale Conosco</h3>
                 <div class="contact-name">
                     <label for="name" class="name-label">Nome</label>
-                    <input class="input-name" name="name" type="text" maxlength="50" placeholder="Guilherme Menezes">
+                    <input class="input-name" name="name" type="text" placeholder="Guilherme Menezes" maxlength="40"  data-tipo="name">
+                    <span class="input-message-error">Este Campo não está válido</span>
                 </div>
                 <div class="contact-text">
-                    <textarea class="input-text" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                    <textarea class="input-text" cols="30" rows="10" placeholder="Escreva sua mensagem" maxlength="120" data-tipo="message"></textarea>
+                    <span class="input-message-error">Este campo não está válido</span>
                 </div>
                 <button class="contact-btn">Enviar Mensagem</button>
             </div>
@@ -69,4 +77,7 @@
     </footer>
 
 </body>
+
+<script type="module" src="../javascript/app.js"></script>
+
 </html>
