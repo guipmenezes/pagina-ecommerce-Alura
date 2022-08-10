@@ -27,6 +27,7 @@
     }
 
     .contact-name {
+        background-color: #FEFEFE;
         display: flex;
         flex-direction:column;
         width: 75vw;

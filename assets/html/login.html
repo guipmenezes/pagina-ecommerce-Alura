@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="../css/login/header.css/header.css">
     <link rel="stylesheet" href="../css/home/footer/footer.css">
     <link rel="stylesheet" href="../css/login/login-menu/login.css">
-    
 </head>
 <body>
     <header class="site-header">
@@ -27,24 +26,22 @@
             </div>
         </div>
     </header>
-
     <main>
         <section class="login-session">
-            <div class="login--container">
+            <form action="/assets/html/all-products.html" class="login--container">
                 <h2 class="login-title">Iniciar Sessão</h2>
-                <div class="email-container">
+                <fieldset class="email-container">
                     <input type="email" class="login-email" placeholder="Escreva seu email" data-tipo="email" required>
                     <span class="input-message-error">Este Campo não está válido</span>
-                </div>
-                <div class="password-container">
+                </fieldset>
+                <fieldset class="password-container">
                     <input type="password" class="login-password" placeholder="Escreva sua senha" data-tipo="senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[!@#$%^&*_=+-]).{6,12}$" required>
                     <span class="input-message-error">Este Campo não está válido</span>
-                </div>
-                <a href="./all-products.html"><button class="login-button">Entrar</button></a> <!-- Need to add a validation on JS to only go to the page when the login is validated -->
-            </div>
+                </fieldset>
+                <button type="submit" class="login-button">Entrar</button>
+            </form>
         </section>
     </main>
-
     <footer>
         <div class="footer">
             <img src="../img/logo-alurageek.svg" alt="Logo da Alura Geek">
@@ -59,25 +56,22 @@
                     <li class="list-item">Anuncie aqui</li>
                 </ul> 
             </div>
-            <div class="contact-form">
+            <form class="contact-form">
                 <h3 class="contact-title">Fale Conosco</h3>
-                <div class="contact-name">
+                <fieldset class="contact-name">
                     <label for="name" class="name-label">Nome</label>
-                    <input class="input-name" name="name" type="text" placeholder="Guilherme Menezes" maxlength="40"  data-tipo="name">
+                    <input class="input-name" name="name" type="text" placeholder="Guilherme Menezes" maxlength="40"  data-tipo="name" required>
                     <span class="input-message-error">Este Campo não está válido</span>
-                </div>
-                <div class="contact-text">
-                    <textarea class="input-text" cols="30" rows="10" placeholder="Escreva sua mensagem" maxlength="120" data-tipo="message"></textarea>
+                </fieldset>
+                <fieldset class="contact-text">
+                    <textarea class="input-text" cols="30" rows="10" placeholder="Escreva sua mensagem" maxlength="120" data-tipo="message" required></textarea>
                     <span class="input-message-error">Este campo não está válido</span>
-                </div>
+                </fieldset>
                 <button class="contact-btn">Enviar Mensagem</button>
-            </div>
+            </form>
         </div>
         <p class="credits">Desenvolvido por Guilherme Menezes, 2021 <br> Nenhum dos preços dessa página representa a realidade, são apenas para fins estéticos</p>
     </footer>
-
 </body>
-
 <script type="module" src="../javascript/app.js"></script>
-
 </html>
