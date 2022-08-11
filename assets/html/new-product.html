@@ -28,12 +28,12 @@
         </div>
     </header>
     <main>
-        <form action="./all-products.html" class="add-product">
+        <form action="./all-products.html" class="add-product" data-form>
             <div class="add-product--container">
                 <h2 class="add-product-title">Adicionar novo produto</h2>
                 <fieldset class="product--container">
                     <label for="product-img">URL da imagem</label>
-                    <input type="file" name="product-img" class="add-product-input" data-tipo="image" required>
+                    <input type="file" name="product-img" class="add-product-input" data-tipo="image" data-image required>
                     <span class="input-message-error">Este Campo não está válido</span>
                 </fieldset>
                 <fieldset class="product--container">
@@ -43,12 +43,12 @@
                 </fieldset>
                 <fieldset class="product--container">
                     <label for="product-name">Nome do produto</label>
-                    <input type="text" name="product-name" placeholder="Produto XYZ" maxlength="20" class="add-product-input" data-tipo="product" required>
+                    <input type="text" name="product-name" placeholder="Produto XYZ" maxlength="20" class="add-product-input" data-tipo="product" data-nome required>
                     <span class="input-message-error">Este Campo não está válido</span>
                 </fieldset>
                 <fieldset class="product--container">
                     <label for="product-price">Preço do produto</label>
-                    <input type="text" name="product-price" placeholder="R$ 60,00" class="add-product-input" data-tipo="price" required>
+                    <input type="text" name="product-price" placeholder="R$ 60,00" class="add-product-input" data-tipo="price" data-preco required>
                     <span class="input-message-error">Este Campo não está válido</span>
                 </fieldset>
                 <fieldset class="product--container">
@@ -92,4 +92,5 @@
     </footer>
 </body>
 <script type="module" src="../javascript/app.js"></script>
+<script type="module" src="../javascript/controller/cadastraProdutos- controller.js"></script>
 </html>

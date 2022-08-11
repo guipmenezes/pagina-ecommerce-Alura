@@ -1,0 +1,154 @@
+{
+  "product": [
+    {
+      "image": "../img/starwars/produto-starwars-1.svg",
+      "nome": "Copo Stormtrooper",
+      "preco": "R$ 60,00",
+      "section": "Star Wars",
+      "id": "#1",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/starwars/produto-starwars-2.svg",
+      "nome": "Lego Darth Vader",
+      "preco": "R$ 60,00",
+      "section": "Star Wars",
+      "id": "#2",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/starwars/produto-starwars-3.svg",
+      "nome": "Boneco Yoda",
+      "preco": "R$ 60,00",
+      "section": "Star Wars",
+      "id": "#3",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/starwars/produto-starwars-4.svg",
+      "nome": "Boneco Stormtrooper",
+      "preco": "R$ 60,00",
+      "section": "Star Wars",
+      "id": "#4",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/starwars/produto-starwars-5.svg",
+      "nome": "Boneco Baby Yoda",
+      "preco": "R$ 60,00",
+      "section": "Star Wars",
+      "id": "#5",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/starwars/produto-starwars-6.svg",
+      "nome": "Boneco Kylo Ren",
+      "preco": "R$ 60,00",
+      "section": "Star Wars",
+      "id": "#6",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/consoles/produtos-consoles-1.svg",
+      "nome": "Controle Xbox One S",
+      "preco": "R$ 60,00",
+      "section": "Consoles",
+      "id": "#7",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/consoles/produtos-consoles-2.svg",
+      "nome": "Playstation 5",
+      "preco": "R$ 60,00",
+      "section": "Consoles",
+      "id": "#8",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/consoles/produtos-consoles-3.svg",
+      "nome": "Super Nintendo Clássico",
+      "preco": "R$ 60,00",
+      "section": "Consoles",
+      "id": "#9",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/consoles/produtos-consoles-4.svg",
+      "nome": "Nintendo Switch",
+      "preco": "R$ 60,00",
+      "section": "Consoles",
+      "id": "#10",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/consoles/produtos-consoles-5.svg",
+      "nome": "Xbox One X",
+      "preco": "R$ 60,00",
+      "section": "Consoles",
+      "id": "#11",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/consoles/produtos-consoles-6.svg",
+      "nome": "Nintendo Portátil",
+      "preco": "R$ 60,00",
+      "section": "Consoles",
+      "id": "#12",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/diversos/produtos-diversos-1.svg",
+      "nome": "Camisa Atari",
+      "preco": "R$ 60,00",
+      "section": "Diversos",
+      "id": "#13",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/diversos/produtos-diversos-2.svg",
+      "nome": "Camisa SNES",
+      "preco": "R$ 60,00",
+      "section": "Diversos",
+      "id": "#14",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/diversos/produtos-diversos-3.svg",
+      "nome": "Action Figure Sonic",
+      "preco": "R$ 60,00",
+      "section": "Diversos",
+      "id": "#15",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/diversos/produtos-diversos-4.svg",
+      "nome": "Rádio/Alarme Rosa",
+      "preco": "R$ 60,00",
+      "section": "Diversos",
+      "id": "#16",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/diversos/produtos-diversos-5.svg",
+      "nome": "Óculos Rift VR",
+      "preco": "R$ 60,00",
+      "section": "Diversos",
+      "id": "#17",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "../img/diversos/produtos-diversos-6.svg",
+      "nome": "Boneco Pelúcia Pikachu",
+      "preco": "R$ 60,00",
+      "section": "Diversos",
+      "id": "#18",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "Badge Sprint 2",
+      "nome": "C:\\fakepath\\badge-sprint2.png",
+      "preco": "R$ 20,00",
+      "id": "N4Dlk5k"
+    }
+  ]
+}
