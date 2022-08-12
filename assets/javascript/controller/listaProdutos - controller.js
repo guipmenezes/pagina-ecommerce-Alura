@@ -6,18 +6,32 @@ const criaNovoProduto = (image, nome, preco, id) => {
         <div class="product--container">
             <img class="product-img" src="${image}">
             <h3 class="product-title">${nome}</h3>
-            <h4 class="product-price">${preco}</h4>
-            <p class="product-tag">${id}</p>
-            <button class="product-edit">editar</button>
+            <h4 class="product-price">R$ ${preco}</h4>
+            <p class="product-tag">#${id}</p>
+            <a href="./new-product.html?id=${id}"><button class="product-edit">editar</button></a>
             <button class="product-delete">deletar</button>
         </div>
 `
 
     linhaNovoProduto.innerHTML = conteudo
+    linhaNovoProduto.dataset.id = id
+    console.log(linhaNovoProduto)
     return linhaNovoProduto
 }
 
 const produto = document.querySelector('[data-produto]')
+produto.addEventListener('click', (evento)=> {
+    let seBotaoDeletar = evento.target.className == 'product-delete'
+    if(seBotaoDeletar) {
+        const linhaProduto = evento.target.closest('[data-id]')
+        let id = linhaProduto.dataset.id
+        productService.removeProduto(id)
+        .then( () => {
+            linhaProduto.remove()
+        })
+    }
+})
+
 const render = async () => {
     try{
         const listaProdutos = await productService.listaProdutos()
