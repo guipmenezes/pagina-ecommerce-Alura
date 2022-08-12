@@ -15,20 +15,17 @@ const criaNovoProduto = (image, nome, preco, id) => {
 
     linhaNovoProduto.innerHTML = conteudo
     linhaNovoProduto.dataset.id = id
-    console.log(linhaNovoProduto)
     return linhaNovoProduto
 }
 
 const produto = document.querySelector('[data-produto]')
-produto.addEventListener('click', (evento)=> {
+produto.addEventListener('click', async (evento)=> {
     let seBotaoDeletar = evento.target.className == 'product-delete'
     if(seBotaoDeletar) {
         const linhaProduto = evento.target.closest('[data-id]')
         let id = linhaProduto.dataset.id
-        productService.removeProduto(id)
-        .then( () => {
+         await productService.removeProduto(id)
             linhaProduto.remove()
-        })
     }
 })
 

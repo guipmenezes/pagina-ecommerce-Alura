@@ -6,7 +6,7 @@ const criaProduto = (nome, image, preco, section, description) => {
     return fetch(`http://localhost:3000/product`, {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json'
+            'Content-type': 'application/json'
         },
         body: JSON.stringify({
             image: image,
