@@ -8,7 +8,7 @@ const criaNovoProduto = (image, nome, preco, id) => {
             <h3 class="product-title">${nome}</h3>
             <h4 class="product-price">R$ ${preco}</h4>
             <p class="product-tag">#${id}</p>
-            <a href="./new-product.html?id=${id}"><button class="product-edit">editar</button></a>
+            <a href="./edit-product.html?id=${id}"><button class="product-edit">editar</button></a>
             <button class="product-delete">deletar</button>
         </div>
 `

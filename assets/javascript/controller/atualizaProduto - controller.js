@@ -4,6 +4,7 @@ import { productService } from "../service/product-service.js"
     const guardaURL = new URL(window.location)
 
     const id = guardaURL.searchParams.get('id')
+    console.log(id)
 
     const inputImage = document.querySelector('[data-image]')
     const inputNome = document.querySelector('[data-nome]')
@@ -18,11 +19,11 @@ import { productService } from "../service/product-service.js"
         inputSection.value = dados.section
         inputDescription.value = dados.description
 
-    const formulario = document.querySelector('[data-form]')
+    const formulario = document.querySelector('[data-formulario]')
 
     formulario.addEventListener('submit', async (evento) => {
         evento.preventDefault()
         await productService.atualizaProduto(id, inputImage.value, inputNome.value, inputPreco.value, inputSection.value, inputDescription.value)
-            window.location.pathname = 'assets/html/all-products.html'
+            window.location.href = '../html/all-products.html'
     }) 
 })()

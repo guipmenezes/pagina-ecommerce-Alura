@@ -37,7 +37,7 @@ const detalhaProduto = (id) => {
     })
 }
 
-const atualizaProduto = (nome, image, preco, section, description) => {
+const atualizaProduto = (id, image, nome, preco, section, description) => {
     return fetch(`http://localhost:3000/product/${id}`, {
         method: 'PUT',
         headers: {
