@@ -151,6 +151,14 @@
       "section": "Hardware",
       "description": "Placa de vídeo",
       "id": "pnY-nUR"
+    },
+    {
+      "image": "https://img.terabyteshop.com.br/produto/g/processador-amd-ryzen-5-3600-36ghz-42ghz-turbo-6-core-12-thread-cooler-wraith-stealth-am4_143877.jpg",
+      "nome": "Ryzen 5 3600",
+      "preco": "979,00",
+      "section": "Processador",
+      "description": "Processador de 6 núcleos e 12 threads",
+      "id": "jQPI1gG"
     }
   ]
 }
