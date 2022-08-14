@@ -2,6 +2,8 @@
 
 <h2>Quarto Challenge ONE + Alura</h2>
 
+<h3>Muito importante: como o projeto é feito com JSON-Server, para que ele funcione é necessário executar o projeto com: npx json.server --watch db.json</h3>
+
 <h3>Português</h3>
 
 <p>O projeto consistiu na formulação de uma landing page do e-Commerce da AluraGeek, um site focado na venda de produtos para o público nerd.</p>
