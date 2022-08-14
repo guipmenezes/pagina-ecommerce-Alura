@@ -159,6 +159,22 @@
       "section": "Processador",
       "description": "Processador de 6 núcleos e 12 threads",
       "id": "jQPI1gG"
+    },
+    {
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_925887-MLA40972983514_032020-V.webp",
+      "nome": "Memória Ram XPG D60G",
+      "preco": "719,00",
+      "section": "Memoria ram",
+      "description": "Memória Ram XPG D60G",
+      "id": "Mz3M5k9"
+    },
+    {
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_925887-MLA40972983514_032020-V.webp",
+      "nome": "Memória Ram XPG D60G",
+      "preco": "719,00",
+      "section": "Memoria ram",
+      "description": "Memória Ram XPG D60G",
+      "id": "lnnASr6"
     }
   ]
 }
