@@ -159,30 +159,6 @@
       "section": "Processador",
       "description": "Processador de 6 núcleos e 12 threads",
       "id": "jQPI1gG"
-    },
-    {
-      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_925887-MLA40972983514_032020-V.webp",
-      "nome": "Memória Ram XPG D60G",
-      "preco": "719,00",
-      "section": "Memoria ram",
-      "description": "Memória Ram XPG D60G",
-      "id": "Mz3M5k9"
-    },
-    {
-      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_925887-MLA40972983514_032020-V.webp",
-      "nome": "Memória Ram XPG D60G",
-      "preco": "719,00",
-      "section": "Memoria ram",
-      "description": "Memória Ram XPG D60G",
-      "id": "lnnASr6"
-    },
-    {
-      "image": "https://images.kabum.com.br/produtos/fotos/229411/placa-de-video-galax-nvidia-geforce-rtx-3070-1-click-oc-8gb-gddr6-dlss-lhr-ray-tracing-preto-37nsl6md2kch_1646999561_original.jpg",
-      "nome": "Nvidia RTX 3070",
-      "preco": "4699,00",
-      "section": "Hardware",
-      "description": "Placa de vídeo",
-      "id": "-aFjWUU"
     }
   ]
 }

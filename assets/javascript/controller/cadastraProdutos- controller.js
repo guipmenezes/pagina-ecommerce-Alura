@@ -11,6 +11,6 @@ formulario.addEventListener('submit', (evento) => {
     const description = document.querySelector('[data-description]').value
 
     productService.criaProduto(nome, image, preco, section, description).then(resposta => {
-        window.location.href = 'assets/html/all-products.html'
+        window.location.href = '../html/all-products.html'
     })
 })
