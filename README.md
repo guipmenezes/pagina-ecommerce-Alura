@@ -31,5 +31,5 @@
 <p>&#128309; CSS</p>
 <p>&#128993; JavaScript</p>
 
-##Challenge Badge:
+<h3>Challenge Badge:</h3>
 <img width="400em" height="400em" align="center" src="assets/img/badge-sprint-ecommerce-alurageek.png"/>
