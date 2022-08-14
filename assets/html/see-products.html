@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all-products/header.css/header.css">
+    <link rel="stylesheet" href="../css/all-products/session-style/session-style.css">
+    <link rel="stylesheet" href="../css/home/footer/footer.css">
+    
+</head>
+<body>
+    <header class="site-header">
+        <div class="header--container">
+            <a href="../../index.html"><img class="logo" src="../img/logo-alurageek.svg" alt="Logo da Alura Geek"></a>
+            <div class="header-nav--container">
+                <form action="#" method="post" class="searchbar--container">
+                    <input class="searchbar" placeholder="O que deseja encontrar?" type="text">
+                    <button class="searchbar-btn" src="#"><img src="../img/icone-pesquisa.svg" alt="lupa de pesquisa"></button>
+                </form>
+                <a href="../html/login.html"><button type="button" class="login-btn">Login</button></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-one">
+            <div class="section--container">
+                <div class="title--container">
+                    <h2 class="section-title">Todos os produtos</h2>
+                </div>
+                <div class="product-section--container" data-produto>
+                    
+                </div>
+            </div>
+            </div>
+        </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <img src="../img/logo-alurageek.svg" alt="Logo da Alura Geek">
+            <div class="footer-list">
+                <ul class="list">
+                    <!-- This items real function was links, but in the challenge, this space don't have function  -->
+                    <li class="list-item">Quem somos nós</li>
+                    <li class="list-item">Política de privacidade</li>
+                    <li class="list-item">Programa fidelidade</li>
+                    <li class="list-item">Nossas lojas</li>
+                    <li class="list-item">Quero ser franqueado</li>
+                    <li class="list-item">Anuncie aqui</li>
+                </ul> 
+            </div>
+            <form class="contact-form">
+                <h3 class="contact-title">Fale Conosco</h3>
+                <fieldset class="contact-name">
+                    <label for="name" class="name-label">Nome</label>
+                    <input class="input-name" name="name" type="text" maxlength="40" placeholder="Guilherme Menezes" data-tipo="name" required>
+                    <span class="input-message-error">Este Campo não está válido</span>
+                </fieldset>
+                <fieldset class="contact-text">
+                    <textarea class="input-text" cols="30" rows="10" maxlength="120" placeholder="Escreva sua mensagem" data-tipo="message" required></textarea>
+                    <span class="input-message-error">Este Campo não está válido</span>
+                </fieldset>
+                <button class="contact-btn">Enviar Mensagem</button>
+            </form>
+        </div>
+        <p class="credits">Desenvolvido por Guilherme Menezes, 2021 <br> Nenhum dos preços dessa página representa a realidade, são apenas para fins estéticos</p>
+    </footer>
+</body>
+<script type="module" src="../javascript/app.js"></script>
+<script type="module" src="../javascript/controller/verTudoProdutos - controller.js"></script>
+</html>

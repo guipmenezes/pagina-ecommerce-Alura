@@ -93,6 +93,15 @@
         color: #FEFEFE;
         cursor: pointer;
     }
+    .product-button {
+        background-color: #FFFFFF;
+        border: none;
+        color: #2A7AE4;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 0;
+        cursor: pointer;
+    }
 
 
 }
