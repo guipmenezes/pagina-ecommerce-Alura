@@ -22,7 +22,7 @@
 
 <p>More than validated forms, the site has a CRUD (Create, Read, Update, Delete) system, so it's possible to every worker that is logged in the site to do the CRUD operations.</p>
 
-<p>For me it was a nice project to practice my english and my javascript abilities. More than that, I've to learn to deal with my full schedule during the days. I failed in do the javascript in the searchbar, but i will do it for sure.</p>
+<p>For me it was a nice project to practice my english and my javascript abilities. More than that, I've to learn to deal with my full schedule during the days. I failed on doing the javascript to the searchbar, but i will do it for sure.</p>
 
 <h2>Tecnologias Utilizadas / Tecnologies</h2>
 <p>&#128992; HTML</p>
